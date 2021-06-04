@@ -12,3 +12,4 @@ cp hooks/post-update.sample hooks/post-update
 git update-server-info
 chown -Rf www-data:www-data "${GIT_DIR}/${REPO_NAME}.git"
 echo "Git repository '${REPO_NAME}' created in ${GIT_DIR}/${REPO_NAME}.git"
+
